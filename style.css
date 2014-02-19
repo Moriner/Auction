@@ -1,0 +1,319 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+input, select, textarea {
+border: 1px solid #B7BBBD;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 5px;
+padding: 5px;
+font-size: 16px;
+width:190px;
+}
+
+.input_small {
+border: 1px solid #B7BBBD;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 10px;
+padding: 5px;
+font-size: 16px;
+width:100px;
+}
+.form-all {
+
+}
+
+.form-line {
+background: none;
+}
+
+
+.main_input{
+border: 1px solid #B7BBBD;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 5px;
+padding: 5px;
+font-size: 16px;
+width:300px;	
+	
+}
+
+.num_input{
+border: 1px solid #B7BBBD;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 5px;
+padding: 5px;
+font-size: 16px;
+width:80px;	
+	
+}
+
+.list_block{
+border: 1px solid #B7BBBD;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 5px;
+padding: 5px;
+font-size: 16px;
+width:190px;		
+}
+.list_block_double{
+border: 1px solid #B7BBBD;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 5px;
+padding: 5px;
+font-size: 16px;
+width:400px;		
+}
+
+.main_textarea{
+border: 1px solid #B7BBBD;
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 5px;
+padding: 5px;
+font-size: 16px;
+width:500px;	
+	
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #061C37;
+	background: #8CBDE1;
+	background-image:url(images/background.png);
+	background-repeat:repeat-x;
+}
+
+*
+{
+margin:0px;
+padding:0px;
+}
+
+#header
+{
+width:900px;
+height:237px;
+padding:7px 7px 7px 7px;
+background-color:#FFFFFF;
+margin-bottom:7px;
+margin-top:20px;
+}
+
+#picture
+{
+	width:900px;
+	height:237px;
+	background-image:url(images/picture.jpg);
+	background-repeat:no-repeat;	
+}
+
+
+h1, h2, h3
+{
+	padding:0px;
+	margin:0px;
+}
+
+#header h1
+{
+position:relative;
+left:12px;	
+top:10px;
+color:#EEF5FD;
+font-size:40px;
+}
+
+#header h2
+{
+position:relative;
+display:block;
+float:right;
+top:158px;
+margin-right:11px;
+font-size:20px;
+color:#2661CE;
+}
+
+
+
+#container
+{
+width:914px;
+margin:0px auto 0px auto;
+}
+
+#main
+{
+	display:block;
+background-color:#FFFFFF;
+padding-top:7px;
+padding-bottom:7px;
+}
+
+.leftcol h2
+{
+	text-align:left;
+	margin-left:7px;
+	font-size:21px;
+	color: #1D5174;
+	margin-bottom:6px;
+}
+
+
+
+
+.maincol h2
+{
+color:#498DD8;
+margin-bottom:3px;
+}
+
+.maincol p
+{
+margin-bottom:6px;
+}
+
+
+
+
+.clear
+{
+clear:both;	
+}
+
+
+#leftcol_container, #maincol_container, #searchcol_container
+{
+float:left;
+margin-left:7px;
+}
+
+
+#leftcol_container
+{
+	width:220px;
+}
+#maincol_container
+{
+width:657px;	
+	
+}
+
+#searchcol_container
+{
+width:900px;	
+text-align:center;	
+}
+
+.leftcol_bottom
+{
+background-image:url(images/leftcol_bottom.png)	;
+background-repeat:no-repeat;
+width:220px;
+height:13px;
+margin-bottom:13px;
+}
+
+
+
+
+.maincol_bottom
+{
+background-image:url(images/maincol_bottom.png)	;
+background-repeat:no-repeat;
+width:657px;
+
+margin-bottom:13px;
+}
+
+.searchcol_bottom
+{
+background-image:url(images/searchcol_bottom.png)	;
+background-repeat:no-repeat;
+width:900px;
+height:13px;
+margin-bottom:13px;
+}
+
+
+.leftcol, .maincol, .searchcol
+{
+clear:both;	
+padding-left:5px;
+padding-right:5px;	
+padding-bottom:5px;	
+padding-top:12px;
+}
+
+
+
+.leftcol
+{
+display:block;
+background-color:#AFD3EB;
+background-image:url(images/leftcol_top.png);
+background-repeat:no-repeat;
+width:210px;
+
+}
+
+
+a,a:visited
+{
+	text-decoration:none;
+	color:#1779CA;
+}
+
+a:hover
+{
+	color:#7DBDEC;
+	border-bottom: #7DBDEC dotted 1px;
+}
+
+.leftcol ul
+{
+list-style:none;
+font-size:15px;
+font-weight:bold;
+}
+
+
+
+.searchcol
+{
+display:block;
+background-image:url(images/searchcol_top.png);
+background-repeat:no-repeat;
+background-color:#AFD3EB;
+width:890px;
+}
+
+.maincol
+{
+display:block;
+background-image:url(images/maincol_top.png);
+background-repeat:no-repeat;
+background-color:#EEF5FB;
+width:657px;
+}
+
+
+#footer h3
+{
+font-size:12px;
+width:inherit;	
+text-align:center;
+margin:0 auto 0 auto;
+	
+	
+}
